@@ -1,0 +1,47 @@
+Script started on 2022-09-14 16:53:18+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="104" LINES="49"]
+]0;marioseg@LAPTOP-4C897BEC: ~[01;32mmarioseg@LAPTOP-4C897BEC[00m:[01;34m~[00m$ docker run hello-world
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+]0;marioseg@LAPTOP-4C897BEC: ~[01;32mmarioseg@LAPTOP-4C897BEC[00m:[01;34m~[00m$ docker run -it ubuntu bash7[K
+[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# [K]0;root@4f37481f4b29: /root@4f37481f4b29:/# mkdir -p /usr/src/app
+[?2004l[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# [Kls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# ls usr
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# ls usr/src/app
+[?2004lindex.js
+[?2004h]0;root@4f37481f4b29: /root@4f37481f4b29:/# exit
+[?2004lexit
+]0;marioseg@LAPTOP-4C897BEC: ~[01;32mmarioseg@LAPTOP-4C897BEC[00m:[01;34m~[00m$ ls
+output.txt  typescript
+]0;marioseg@LAPTOP-4C897BEC: ~[01;32mmarioseg@LAPTOP-4C897BEC[00m:[01;34m~[00m$ ls typescript
+typescript
+]0;marioseg@LAPTOP-4C897BEC: ~[01;32mmarioseg@LAPTOP-4C897BEC[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-09-14 17:06:38+01:00 [COMMAND_EXIT_CODE="0"]
